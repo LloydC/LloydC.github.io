@@ -4,7 +4,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  font-family: "Raleway";
 }
 
-#mapid { height: 180px; }
+#mapid { height: 300px; }
 
 .navbar {
  background:#063F9B;
