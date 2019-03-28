@@ -32,12 +32,6 @@ html,h1,h2,h3,h4,h5,h6,a{
   background:#fff !important;
 }
 
-/* .header {
- background-image: url('../images/headerback.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
-} */
 #particles-js {
   /* position: absolute; */
   width: 100%;
@@ -102,10 +96,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .about .desc{
  padding: 2em;
- border-left:4px solid #10828C;
+ border-left:4px solid #063F9C;
 }
 .about .desc h3{
- color: #10828C;
+ color: #063F9C;
 }
 .about .desc p{
  line-height:2;
