@@ -74,34 +74,34 @@ html,h1,h2,h3,h4,h5,h6,a{
  color:#fff;
 }
 
-.about{
+#about{
  margin: 4em 0;
  padding: 1em;
  position: relative;
 }
-.about h1{
+#about h1{
  color:#063F9B;
  margin: 2em;
 }
-.about img{
+#about img{
  height: 100%;
     width: 100%;
     border-radius: 50%
 }
-.about span{
+#about span{
  display: block;
  color: #888;
  position: absolute;
  left: 115px;
 }
-.about .desc{
+#about .desc{
  padding: 2em;
  border-left:4px solid #063F9C;
 }
-.about .desc h3{
+#about .desc h3{
  color: #063F9C;
 }
-.about .desc p{
+#about .desc p{
  line-height:2;
  color:#888;
 }

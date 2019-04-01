@@ -45,18 +45,17 @@
     <header class="header" id="particles-js">
       <div class="overlay"></div>
       <div class="container">
-        <div class="description" id="home">
-         <h1>Welcome To My Website</h1>
+        <div class="description">
          <h1>
           <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, my name is Lloyd.", "I Like to Build Websites And Applications.", "I Love Coding.", "I Love to Teach People Coding :D" ]'>
             <span class="wrap"></span>
           </a>
-        </h1>
+         </h1>
         </div>
       </div>
     </header>
     <div class="container">
-       <div class="row about" id="about">
+       <div class="row" id="about">
          <div class="col-lg-6 col-md-6 col-sm-12">
           <img src="images/team-2.jpg" class="img-fluid">
          </div>
@@ -64,9 +63,6 @@
           <h3>About me</h3>
           <br>
           <p>I'm a Full-Stack Developer based in Amsterdam, I enjoy creating websites and web applications as much as I like finding solutions to complex problems.</p>
-
-          <p>My hobbies are diversed as I love to try out new things, I'm a Hip-Hop Dancer, Brazilian Jiu Jitsu practicioner, a Tricker/Freerunner enthusiast and I also do Yoga. </p>
-
          </div>
       </div>
     </div>
@@ -80,31 +76,36 @@
     <div class="contact-form" id="contact">
      <div class="container">
        <h1 class="text-center">Contact me</h1>
-       </div>
        <div class="row" id="mapid"></div>
-      <form method="post" action="mailto:lloydchambrier@gmail.com">
-       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <h1>Get in Touch</h1>
+       <form method="post" action="mailto:lloydchambrier@gmail.com">
+        <div class="row">
+          <div class="col-lg-12 col-md-4 col-sm-12">
+            <h1 class="text-center">Get in Touch</h1>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control form-control-lg">
+                  </textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+            </div>
+          </div>
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 right">
-           <div class="form-group">
-             <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
-           </div>
-           <div class="form-group">
-             <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
-           </div>
-           <div class="form-group">
-             <textarea class="form-control form-control-lg">
-
-             </textarea>
-           </div>
-           <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
-        </div>
-       </div>
       </form>
      </div>
     </div>
+    <!-- Footer -->
+    <footer style="height: 100px;border: solid 1px black;background:#063F9B;color: #f4f4f4;">
+      <div class="container" style="margin: 0 auto;">
+        <div class="content" style="margin: 0 auto;text-align: center;">
+          Copyright 2019
+          </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
