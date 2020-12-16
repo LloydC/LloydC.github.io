@@ -1,8 +1,3 @@
-// particlesJS.load("particles-js", "particles.json", function(){
-//   console.log("particles config loaded")});
-
-// ^
-// |
 // Debug this https://github.com/VincentGarreau/particles.js///
 
 particlesJS("particles-js", {

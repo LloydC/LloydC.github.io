@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 	$(".navbar a").click(function(){
-	  $("body,html").animate({
+	  $("body").animate({// orig $("body, html")
 	   scrollTop:$("#" + $(this).data('value')).offset().top
 	  },1000)
  })
@@ -68,4 +68,3 @@ var TxtType = function(el, toRotate, period) {
     };
 
     // HEADER ANIMATION PART END//
-    var mymap = L.map('mapid').setView([51.505, -0.09], 13);

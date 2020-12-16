@@ -1,27 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Libre+Baskerville|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
-
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-   crossorigin=""/>
-   <!-- Leaflet JS -->
-   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+     crossorigin=""/>
     <title>Web Developer Portfolio - Lloyd Chambrier </title>
   </head>
   <body>
+
   	<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#home">Lloyd Chambrier</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +23,7 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
          <ul class="navbar-nav mr-4">
            <li class="nav-item">
-             <a class="nav-link change-white" data-value="about" href="#about" style="color:white;">About</a>
+             <a class="nav-link change-white" data-value="about" href="#selling-points" style="color:white;">Skillset</a>
            </li>
            <li class="nav-item">
              <a class="nav-link change-white" data-value="projects" href="#projects" style="color:white;">Projects</a>
@@ -41,44 +34,44 @@
          </ul>
        </div>
     </nav>
-    <header class="header" id="particles-js">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="description">
-         <h1>
-          <a href="#" class="typewrite" data-period="2000" data-type='["Fullstack Javascript Developer", "Web Development Teacher", "Freelancer" ]' style="font-family: 'Libre Baskerville', serif;">
-            <span class="wrap"></span>
-          </a>
-         </h1>
+
+      <div class="container-fluid" style="height: 100%;">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12" id="particles-js">
+            <div class="overlay"></div>
+              <div class="description">
+              <h1>
+                <a href="#" class="typewrite" data-period="2000" data-type='["Fullstack Developer", "Web Development Teacher", "Freelancer" ]' style="font-family: 'Libre Baskerville', serif; color: white;">
+                  <span class="wrap"></span>
+                </a>
+              </h1>
+              </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="images/team-1.jpg" id="about-img">
+            <br>
+            <p>After graduating with a Bachelor in Computer Science, I started my professional career by teaching programming for 3 years to people coming from various backgrounds and helped them kickstart their career in Web Development.</p>
+            <p>During that time, I experienced both the joy of programming and making a positive social impact. Now, I'm looking for new opportunities to both grow as a developer and keep on making a positive impact with the skills I have.</p>
+            <br>
+          </div>
+
         </div>
       </div>
-    </header>
-    <div class="container">
-       <div class="row" id="about">
-         <div class="col-lg-6 col-md-6 col-sm-12">
-          <img src="images/team-2.jpg" class="img-fluid">
-          <p style="font-family: 'Montserrat', sans-serif;">I'm a Full-Stack Developer with a background in Computer Science based in Amsterdam.</p>
-         </div>
-         <div class="col-lg-6 col-md-6 col-sm-12 desc">
-          <h3>About me</h3>
-          <br>
-          <p>After I received my Bachelor in Computer Science, I started my professional career by teaching programming for 3 years to people coming from various backgrounds and helped them kickstart/redirect their career in Web Development.</p>
-          <img src="images/headerback.jpg" class="img-fluid" style="width: 30%;height:30%;">
-          <img src="images/headerback.jpg" class="img-fluid" style="width: 30%;height:30%;">
-          <img src="images/headerback.jpg" class="img-fluid" style="width: 30%;height:30%;">
-          <p>During that time, I experienced both the joy of programming and making a positive social impact have. Now, I'm actively looking for new opportunities where I can both grow as a developer and keep on making a positive impact with the skills I have.</p>
-          <br>
-          <p></p>
-        </div>
-      </div>
-    </div>
+
      <!-- Selling points section -->
     <div id="selling-points">
+      <h1 class="text-center" style="color:#063F9B;">Skillset</h1>
+      <br>
       <div class="global-container">
           <div class="flex">
               <div class="item selling-point">
+                <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Front End Development</h3>
                 <img src="./images/icons/selling-points1.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
-                  <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Front End Development</h3>
                   <ul class="skill-list">
                       <li>HTML5</li>
                       <li>CSS3</li>
@@ -91,8 +84,8 @@
                   </ul>
               </div>
               <div class="item selling-point">
+                <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Back End Development</h3>
                 <img src="./images/icons/selling-points2.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
-                  <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Back-end Integration</h3>
                   <ul class="skill-list">
                             <li>Node.js</li>
                             <li>Express.js</li>
@@ -107,8 +100,9 @@
                             <li>Git & Github</li>
                     </ul>
                 </div>
-              <div class="item selling-point"><img src="./images/icons/selling-points3.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
-                  <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Soft Skills</h3>
+              <div class="item selling-point">
+                  <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Other Skills</h3>
+                  <img src="./images/icons/selling-points3.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
                   <ul class="skill-list">
                       <li>Positive Attitude</li>
                       <li>Public Speaking</li>
@@ -118,62 +112,86 @@
                       <li>Problem solving</li>
                       <li>Troubleshooting</li>
                       <li>Adaptability</li>
-                      <li>Facilitation</li>
-                      <li>Conflict management</li>  
+                      <li>Facilitation</li> 
                   </ul>
-
                 </div>
           </div>
       </div>
   </div>
     <!-- projects -->
-    <div id="projects">
-      <h1 class="text-center">Projects</h1>
+    <div class="container-fluid" id="projects">
+      <h1 class="text-center" style="color:#063F9B;">Projects</h1>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="images/Book-finder.png" class="card-img-top" alt="book_finder_image">
+            <div class="card-body">
+              <h5 class="card-title">Book finder</h5>
+              <p class="card-text">An application that uses Google Books API to find books whose title match what you've entered in a search bar.</p>
+              <a href="https://kingcode-bookfinder.netlify.app/" class="btn btn-primary" target="_new">Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+      </div>
     </div>
     
     <!-- Contact form -->
     <div class="contact-form" id="contact">
-     <div class="container">
-       <h1 class="text-center">Contact me</h1>
-       <div class="row" id="mapid"></div>
-       <form method="post" action="mailto:lloydchambrier@gmail.com">
+    <h1 class="text-center">Contact me</h1>
+    
+     <div class="container-fluid" id="mapid">
+       <div class="row">
+       <!-- <form method="post" action="mailto:lloydchambrier@gmail.com">
         <div class="row">
           <div class="col-lg-12 col-md-4 col-sm-12">
             <h1 class="text-center">Get in Touch</h1>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                  <input type="text" class="form-control form-control-lg" placeholder="Your Name">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                  <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com">
                 </div>
                 <div class="form-group">
                   <textarea class="form-control form-control-lg">
                   </textarea>
                 </div>
-                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                <input type="submit" class="btn btn-secondary btn-block" value="Send">
             </div>
           </div>
         </div>
-      </form>
+      </form> -->
      </div>
     </div>
     <!-- Footer -->
-    <footer style="height: 100px;border: solid 1px black;background:#063F9B;color: #f4f4f4;">
-      <div class="container" style="margin: 0 auto;">
-        <div class="content" style="margin: 0 auto;text-align: center;">
-          Copyright 2019
-          </div>
+    <!-- <div class="content" style="display:flex;justify-content: center;align-items:center;">
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/lloyd-chambrier-b9396870" target="_new"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/LloydC" target="_new"><i class="fa fa-github"></i></a>
+        <a href="mailto:lloydchambrier@gmail.com" target="_new"><i class="fa fa-envelope-o"></i></a></div>
+     </div> -->
+    <footer>
+      <div class="container">
+         <span>&copy; Copyright 2020</span>
         </div>
+      </div>
     </footer>
-    <!-- Optional JavaScript -->
+     <!-- Map Leaflet JS -->
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+     crossorigin=""></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <!-- Location Script -->
     <script type="text/javascript" src="js/location.js"></script>
+    <!-- Particles Animation Scripts -->
     <script type="text/javascript" src="js/particles.js"></script>
-    <script type="text/javascript" src='js/main.js'></script>
     <script type="text/javascript" src="js/particles-config.js"></script>
+    <!-- Header Animation Script -->
+    <script type="text/javascript" src='js/main.js'></script>
   </body>
 </html>
