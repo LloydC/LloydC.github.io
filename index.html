@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Libre+Baskerville|Montserrat&display=swap" rel="stylesheet">
@@ -16,20 +17,22 @@
   <body>
 
   	<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="#home">Lloyd Chambrier</a>
+      <a class="navbar-brand" href="#home" style="margin-left: 10px;">Lloyd Chambrier</a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
          <ul class="navbar-nav mr-4">
            <li class="nav-item">
-             <a class="nav-link change-white" data-value="about" href="#selling-points" style="color:white;">Skillset</a>
+             <a class="nav-link change-white text-white" data-value="about" href="#selling-points">Skillset</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link change-white" data-value="projects" href="#projects" style="color:white;">Projects</a>
+             <a class="nav-link change-white text-white" data-value="projects" href="#projects">Projects</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link change-white" data-value="contact" href="#contact" style="color:white;">Contact</a>
+             <a class="nav-link change-white text-white" data-value="contact" href="#contact">Contact</a>
            </li>
          </ul>
        </div>
@@ -37,29 +40,22 @@
 
       <div class="container-fluid" style="height: 100%;">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" id="particles-js">
-            <div class="overlay"></div>
-              <div class="description">
-              <h1>
-                <a href="#" class="typewrite" data-period="2000" data-type='["Fullstack Developer", "Web Development Teacher", "Freelancer" ]' style="font-family: 'Libre Baskerville', serif; color: white;">
-                  <span class="wrap"></span>
-                </a>
-              </h1>
+          <div class="col-lg-12 col-md-12 col-sm-12" id="header-background">
+              <div class="global-container">
+                  <div class="jumbotron">
+                      <div class="header-text">
+                          <h1 class="animate__animated animate__slideInLeft">Lloyd<span> Chambrier</span></h1>
+                          <h2 class="animate__animated animate__slideInRight">Fullstack Developer</h2>
+                      </div>
+
+                      <div class="header-buttons animate__animated animate__slideInUp" >
+                        <a class="button button-transparent right-margin" href="#projects">Projects</a>
+                        <a class="button button-colored" href="#contact">Contact me</a>
+                      </div>
+
+                  </div>
               </div>
           </div>
-          
-          <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
-            <br>
-            <br>
-            <br>
-            <br>
-            <img src="images/team-1.jpg" id="about-img">
-            <br>
-            <p>After graduating with a Bachelor in Computer Science, I started my professional career by teaching programming for 3 years to people coming from various backgrounds and helped them kickstart their career in Web Development.</p>
-            <p>During that time, I experienced both the joy of programming and making a positive social impact. Now, I'm looking for new opportunities to both grow as a developer and keep on making a positive impact with the skills I have.</p>
-            <br>
-          </div>
-
         </div>
       </div>
 
@@ -124,12 +120,13 @@
       <div class="row">
 
         <div class="col-lg-3 col-md-3 col-sm-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
             <img src="images/Book-finder.png" class="card-img-top" alt="book_finder_image">
             <div class="card-body">
-              <h5 class="card-title">Book finder</h5>
+              <h4 class="card-title text-center">Book finder</h4>
               <p class="card-text">An application that uses Google Books API to find books whose title match what you've entered in a search bar.</p>
-              <a href="https://kingcode-bookfinder.netlify.app/" class="btn btn-primary" target="_new">Link</a>
+              <a href="https://kingcode-bookfinder.netlify.app/" class="btn btn-primary" target="_new">Deployment Link</a>
+              <a href="https://github.com/LloydC/react-book-finder" class="btn btn-secondary" target="_new">Github Link</a>
             </div>
           </div>
         </div>
@@ -141,41 +138,30 @@
     
     <!-- Contact form -->
     <div class="contact-form" id="contact">
-    <h1 class="text-center">Contact me</h1>
+      <h1 class="text-center">Contact me</h1>
+    </div>
     
      <div class="container-fluid" id="mapid">
-       <div class="row">
-       <!-- <form method="post" action="mailto:lloydchambrier@gmail.com">
-        <div class="row">
-          <div class="col-lg-12 col-md-4 col-sm-12">
-            <h1 class="text-center">Get in Touch</h1>
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com">
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control form-control-lg">
-                  </textarea>
-                </div>
-                <input type="submit" class="btn btn-secondary btn-block" value="Send">
-            </div>
-          </div>
-        </div>
-      </form> -->
-     </div>
-    </div>
+       <!-- <div class="row">
+      </div> -->
+    </div>  
     <!-- Footer -->
-    <!-- <div class="content" style="display:flex;justify-content: center;align-items:center;">
-      <div class="contact-icons">
-        <a href="https://www.linkedin.com/in/lloyd-chambrier-b9396870" target="_new"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/LloydC" target="_new"><i class="fa fa-github"></i></a>
-        <a href="mailto:lloydchambrier@gmail.com" target="_new"><i class="fa fa-envelope-o"></i></a></div>
-     </div> -->
     <footer>
       <div class="container">
-         <span>&copy; Copyright 2020</span>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <span>&copy; Copyright 2020</span>
+          </div>
+        </div>
         </div>
       </div>
     </footer>
@@ -188,10 +174,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <!-- Location Script -->
     <script type="text/javascript" src="js/location.js"></script>
-    <!-- Particles Animation Scripts -->
-    <script type="text/javascript" src="js/particles.js"></script>
-    <script type="text/javascript" src="js/particles-config.js"></script>
-    <!-- Header Animation Script -->
-    <script type="text/javascript" src='js/main.js'></script>
   </body>
 </html>

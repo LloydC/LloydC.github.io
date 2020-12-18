@@ -273,3 +273,85 @@ footer{
 	margin-right: 15px;
 	margin-bottom: 5px;
 }
+
+#header-background {
+	z-index: 1;
+	width: 100%;
+	height: 700px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2af35+32,f5753a+100 */
+	background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(123,123,218,1) 35%, rgba(0,212,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(123,123,218,1) 35%, rgba(0,212,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(123,123,218,1) 35%, rgba(0,212,255,1) 100%);; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2af35', endColorstr='#f5753a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header-text h1 {
+	font-weight: 900;
+	font-size: 5vw;
+}
+
+.header-text span {
+	font-weight: 300;
+	font-size: 6vw;
+}
+
+.header-text h2 {
+	font-weight: 300;
+	font-size: 1.8vw;
+}
+
+.header-buttons {
+	margin-top: 40px;
+}
+.header-buttons a{
+	margin-left: 40px;
+}
+
+.global-container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.jumbotron {
+	position: relative;
+	left: 22%;
+	top: 300px;
+	width: 50%;
+	text-align: right;
+	color: white;
+}
+
+.button-transparent {
+	background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-colored {
+	background-color: #7877f9;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;   /* Height of the footer */
+ } */
