@@ -349,6 +349,14 @@ footer{
     cursor: pointer;
 }
 
+.card {
+	transition: 0.5s;
+	transform: scale(0.8);
+}
+
+.card:hover {
+	transform: scale(1.2) translateY(-10px);
+}
 /* footer {
 	position:absolute;
 	bottom:0;
