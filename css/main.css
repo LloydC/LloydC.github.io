@@ -151,14 +151,11 @@ footer{
 }
 #contact {
 	background: #fcfcfc;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 .contact-form{
- /* margin: 6em 0; */
  position: relative;
-}
-.contact-form h1{
- padding:2em 1px;
- color: #063F9B;
 }
 .contact-form .right{
  max-width: 600px;
@@ -188,7 +185,7 @@ footer{
 }
 
 .selling-point h3 {
-	color: #4D4D4D;
+	color: #063F9B;
 	font-weight: 700;
 	font-size: 1.6vw;
 }
@@ -363,4 +360,6 @@ footer{
 	background-image: url("../images/work-images/photo-18.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
