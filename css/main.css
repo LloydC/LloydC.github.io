@@ -293,14 +293,14 @@ footer{
 .header-text h2 {
 	font-weight: 300;
 	font-size: 1.8vw;
-	color: whitesmoke;
+	color: white;
 	background-color: transparent;
 }
 
 .header-buttons {
-	margin-top: 40px;
+	margin-top: 22px;
 }
-.header-buttons a{
+.header-buttons a {
 	margin-left: 40px;
 }
 
@@ -318,12 +318,12 @@ footer{
 	color: white;
 }
 
-.button-transparent {
+.project-button {
 	background-color: #063F9B;;
     border-radius: 50px;
     color: white;
     text-transform: uppercase;
-    padding: 2% 5%;
+    padding: 2% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -331,12 +331,12 @@ footer{
     cursor: pointer;
 }
 
-.button-colored {
+.contact-button{
 	background-color: #7877f9;
-    border-radius: 25px;
+    border-radius: 50px;
     color: white;
     text-transform: uppercase;
-    padding: 2% 5%;
+    padding: 2% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
