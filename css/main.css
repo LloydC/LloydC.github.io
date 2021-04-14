@@ -284,20 +284,17 @@ footer{
 
 .header-text h1 {
 	font-weight: 900;
-	font-size: 5vw;
+	font-size: 4vw;
 	color: black;
-}
-
-.header-text span {
-	font-weight: 300;
-	font-size: 6vw;
-	color: black;
+	background-color: transparent;
+	z-index: 2;
 }
 
 .header-text h2 {
 	font-weight: 300;
 	font-size: 1.8vw;
-	color: black;
+	color: whitesmoke;
+	background-color: transparent;
 }
 
 .header-buttons {
