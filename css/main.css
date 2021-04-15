@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-html,h1,h2,h3,h4,h5,h6,span,a{
+html,h1,h2,h3,h4,h5,h6,p,span,a{
  font-family: "Raleway";
 }
 
@@ -46,18 +46,6 @@ footer{
   background:#063F9B !important;
 }
 
-#particles-js {
-  width: 50%;
-  /* height: 200; */
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(123,123,218,1) 35%, rgba(0,212,255,1) 100%);
-}
-
-
 .description {
     position: absolute;
     top: 30%;
@@ -69,19 +57,18 @@ footer{
 }
 /* ABOUT */
 
-#about{
- margin: 4em 0;
- padding: 1em;
- position: relative;
+ #about{
+margin: 0 auto;
+padding-bottom: 5%;
+padding-top: 5%;
 }
-#about h1{
- color:#063F9B;
- margin: 2em;
-}
+
 #about-img{
- height: 50%;
- width: 50%;
- border-radius: 50%
+height: 50%;
+width: 40%;
+border-radius: 50%;
+padding-bottom: 1%;
+padding-top: 1%;
 }
 
 #portfolio{
@@ -271,6 +258,10 @@ footer{
 
 	margin-right: 15px;
 	margin-bottom: 5px;
+}
+
+#about{
+
 }
 
 #header-background {
