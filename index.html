@@ -216,7 +216,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-3">
-            <span>&copy; Copyright 2021</span>
+            <span>&copy; Copyright <span id="year"></span></span>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-3">
             
@@ -238,5 +238,8 @@
         crossorigin=""></script>
     <!-- Location Script -->
     <script type="text/javascript" src="js/location.js"></script>
+    <script>
+      document.getElementById('year').innerText = `${new Date().getFullYear()}`
+    </script>
   </body>
 </html>
