@@ -252,3 +252,12 @@ padding-top: 1%;
 .social-icons:hover {
 	cursor: pointer;
 }
+
+.project-card {
+	text-decoration: none;
+	color: black;;
+}
+
+.project-card:hover {
+	color: black;
+}
