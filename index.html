@@ -191,10 +191,10 @@
         <div class="row justify-content-center">
             <h1 class="text-center">Contact Me</h1>
             <div class="offset-md-2 col-md-8">
-              <form action="https://formspree.io/f/xleoavdw" method="POST">
-                <input class="form-control" name="_replyto" type="email" placeholder="Your email" required=""><br>
-                <input class="form-control" type="text" name="_subject" placeholder="Subject"><br>
-                <textarea class="form-control" name="message" placeholder="Your message"></textarea><br>
+              <form id="contact-form">
+                <input id="email" class="form-control" name="email" type="email" placeholder="Your email" required><br>
+                <input id="subject" class="form-control" type="text" name="subject" placeholder="Subject"><br>
+                <textarea id="message" class="form-control" name="message" placeholder="Your message"></textarea><br>
                 <button class="btn btn-outline-primary" type="submit">Submit</button>
               </form>
             </div>
@@ -227,6 +227,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script>
       document.getElementById('year').innerText = `${new Date().getFullYear()}`
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      window.onload = function() {
+            emailjs.init('GNOcKWtK9Q1Lw7UoL');
+
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                // this.contact_number.value = Math.random() * 100000 | 0;
+                this.email = document.getElementById('email').value;
+                this.subject.value = document.getElementById('subject').value;
+                this.message.value = document.getElementById('message').value
+                // these IDs from the previous steps
+                emailjs.sendForm('service_mmmjuft', 'contact_form', this)
+                    .then(function() {
+                        document.getElementById('email').value = '';
+                        document.getElementById('subject').value = '';
+                        document.getElementById('message').value = '';
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
     </script>
   </body>
 </html>
