@@ -245,6 +245,11 @@ padding-top: 1%;
 	transform: scale(1.2) translateY(-10px);
 }
 
+.card-img-top {
+	width: 100%;
+	height: 240px;
+}
+
 #projects {
 	padding-bottom: 5%;
 	padding-top: 5%;
