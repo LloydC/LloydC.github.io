@@ -13,13 +13,18 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 }
 
 footer{
-	height: 100px;
+	/* height: 100px;
 	border: solid 1px black;
 	background:#063F9B;
 	color: #f4f4f4;
 	display:flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
+
+	height: 100px;
+    background: aquamarine;
+    display: flex;
+    align-items: center;
 }
 
 #mapid { height: 300px; }
