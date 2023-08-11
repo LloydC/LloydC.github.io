@@ -74,6 +74,7 @@ footer{
 margin: 0 auto;
 padding-bottom: 5%;
 padding-top: 5%;
+background: white;
 }
 
 #about-img{
@@ -174,7 +175,7 @@ padding-top: 1%;
 	z-index: 1;
 	width: 100vw;
 	height: 100vh;
-	background-color: #48aadf;
+	background-color: rgb(194, 181, 155);
 }
 
 .header-text h1 {
@@ -258,6 +259,7 @@ padding-top: 1%;
 #projects {
 	padding-bottom: 5%;
 	padding-top: 5%;
+	background: rgb(194, 181, 155);
 }
 
 .social-icons:hover {
