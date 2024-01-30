@@ -4,7 +4,6 @@
 #7877f9
 #4078bc
 black
-#f4f4f4 
 #f4f4f4 */
 
 html,h1,h2,h3,h4,h5,h6,p,span,a{
@@ -67,6 +66,24 @@ footer{
 }
 .description h1 {
  color: #f4f4f4;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.left-animation {
+	border-radius:50%;
+	background-color: black;
+}
+
+.right-header {
+	display: flex; 
+	flex-direction: column;
+}
+
+.black {
+	color: #212529;
 }
 /* ABOUT */
 
@@ -277,4 +294,9 @@ padding-top: 1%;
 
 .project-summary {
 	margin-bottom: 12px !important;
+}
+
+.card-style {
+	width: 20rem; 
+	margin: 0 auto;
 }
