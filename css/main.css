@@ -175,7 +175,7 @@ padding-top: 1%;
 	z-index: 1;
 	width: 100vw;
 	height: 100vh;
-	background-color: rgb(194, 181, 155);
+	background-color: #48aadf;
 }
 
 .header-text h1 {
@@ -259,7 +259,7 @@ padding-top: 1%;
 #projects {
 	padding-bottom: 5%;
 	padding-top: 5%;
-	background: rgb(194, 181, 155);
+	background: #48aadf;
 }
 
 .social-icons:hover {
